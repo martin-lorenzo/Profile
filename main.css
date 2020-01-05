@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/bg.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo{
+  width: 22vh;
+  float: left;
+  margin: 3vh 0 0 3vh;
+}
+
+.nav {
+  float: right;
+  list-style: none;
+  margin-top: 5vh;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  text-decoration: none;
+  padding: 0.7vh 2.8vh;
+  color: white;
+  font-size: 3vh;
+
+}
+
+.nav li a:hover {
+  border: 1px solid white;
+}
+
+.hero {
+  position: absolute;
+  font-family: 'Ubuntu Mono', monospace;
+  width: 180vh
+}
+
+h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 10.5vh;
+  text-align:left;
+  margin: 35vh 0 0 25vh;
+  padding: 0;
+}
+
+h2{
+  color: gray;
+  text-transform: capitalize;
+  text-align:left;
+  margin: 1vh 0 0 25vh;
+  padding: 0;
+  font-size: 3vh;
+}
